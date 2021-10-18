@@ -7,15 +7,19 @@ using Engine.Models;
 
 namespace Engine.ViewModels
 {
-    class GameSession
+    public class GameSession
     {
-        Player CurrentPlayer { get; set; }
+        public Player CurrentPlayer { get; set; }
 
         public GameSession()
         {
             CurrentPlayer = new Player();
             CurrentPlayer.Name = "Khan";
-            CurrentPlayer.Gold = 1000000;
+            CurrentPlayer.CharacterClass = "Samurai";
+            CurrentPlayer.HitPoints = 100;
+            CurrentPlayer.Gold = 2;
+            CurrentPlayer.ExperiencePoints = 0;
+            CurrentPlayer.Level = 1;
         }
     }
 }
