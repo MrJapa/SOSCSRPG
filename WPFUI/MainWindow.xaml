@@ -18,10 +18,10 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="Menu" Background="#c3cfe2"></Label>
-        <Label Grid.Row="1" Grid.Column="0" Content="Player Data" Background="#c3cfe2"></Label>
-        <Label Grid.Row="1" Grid.Column="1" Content="Game Data" Background="#c2e9fb"></Label>
-        <Label Grid.Row="2" Grid.Column="0" Content="Inventory / Quests" Background="#c3cfe2"></Label>
-        <Label Grid.Row="2" Grid.Column="1" Content="Combat / Movement Controls" Background="#c3cfe2" HorizontalContentAlignment="Left" BorderThickness="1,0,0,0"></Label>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="Menu" Background="#c3cfe2" FontWeight="Bold"></Label>
+        <Label Grid.Row="1" Grid.Column="0" Content="Player Data" Background="#c3cfe2" FontWeight="Bold"></Label>
+        <Label Grid.Row="1" Grid.Column="1" Content="Game Data" Background="#c2e9fb" FontWeight="Bold"></Label>
+        <Label Grid.Row="2" Grid.Column="0" Content="Inventory / Quests" Background="#c3cfe2" FontWeight="Bold"></Label>
+        <Label Grid.Row="2" Grid.Column="1" Content="Combat / Movement Controls" Background="#c3cfe2" HorizontalContentAlignment="Left" BorderThickness="1,0,0,0" FontWeight="Bold"></Label>
     </Grid>
 </Window>
