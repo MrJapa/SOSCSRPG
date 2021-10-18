@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPFUI"
         mc:Ignorable="d"
         Title="Old World RPG" Height="768" Width="1024">
-    <Grid>
+    <Grid Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -22,6 +22,6 @@
         <Label Grid.Row="1" Grid.Column="0" Content="Player Data" Background="#c3cfe2" FontWeight="Bold"></Label>
         <Label Grid.Row="1" Grid.Column="1" Content="Game Data" Background="#c2e9fb" FontWeight="Bold"></Label>
         <Label Grid.Row="2" Grid.Column="0" Content="Inventory / Quests" Background="#c3cfe2" FontWeight="Bold"></Label>
-        <Label Grid.Row="2" Grid.Column="1" Content="Combat / Movement Controls" Background="#c3cfe2" HorizontalContentAlignment="Left" BorderThickness="1,0,0,0" FontWeight="Bold"></Label>
+        <Label Grid.Row="2" Grid.Column="1" Content="Combat / Movement Controls" Background="#c3cfe2" FontWeight="Bold"/>
     </Grid>
 </Window>
