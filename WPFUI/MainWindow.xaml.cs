@@ -36,5 +36,9 @@ namespace WPFUI
         {
             _gameSession.CurrentPlayer.ExperiencePoints = _gameSession.CurrentPlayer.ExperiencePoints + 10;
         }
+        private void Button_Add_Gold(object sender, RoutedEventArgs e)
+        {
+            _gameSession.CurrentPlayer.Gold = _gameSession.CurrentPlayer.Gold + 100;
+        }
     }
 }
